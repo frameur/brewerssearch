@@ -63,6 +63,7 @@ li {
 .select_content {
   display: grid;
   grid-template-rows: 1fr;
+  width: 90%;
   justify-content: center;
 
   // font-size: 50px;
@@ -77,14 +78,13 @@ li {
 .content_img {
   display: flex;
   justify-content: center;
-  width: 400px;
-  height: 400px;
+  width: 20rem;
+  height: 20rem;
   margin-top: 30px;
   margin: 0 auto;
   overflow: hidden;
   object-fit: cover;
 }
-
 a {
   text-decoration: none;
   color: #591511;
@@ -103,7 +103,7 @@ h3 {
   justify-content: center;
   line-height: 20px;
   margin-top: 10px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   font-weight: 400;
 }
 h4 {
@@ -117,14 +117,15 @@ h4 {
   justify-content: center;
 }
 p.content_text {
-  width: 700px;
-  display: flex;
-  justify-content: center;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 25% 75%;
   line-height: 20px;
   margin: 0 auto;
 }
 p.content_text h4 {
-  margin-right: 25px;
+  margin-right: 10px;
+  width: 80%;
   font-size: 12px;
   color: #c71b12;
   text-transform: uppercase;
