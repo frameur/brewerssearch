@@ -259,7 +259,7 @@ const projectsData = [
   {
     id: 6,
     nameBrass: 'SARL STAJAM Gessienne',
-    img: './images/gessienne.webp',
+    img: './images/gessienne.jpg',
     title: 'Une philosophie....',
     infos:
       "Nous favorisons les circuits courts.....une partie de nos malts sont cultivés à Challex (Domaine de Mucelle) et maltés à Allonzier la Caille (Maltin'Pott). Nos drêches servent d'aliments pour les cochons de la Ferme de Noire Combe. Respectons l’environnement ! ",
