@@ -10,9 +10,12 @@ const About = () => {
   const onChangeComBox = (e) => {
     const selectedId = e.target.value
     // eslint-disable-next-line eqeqeq
-    const selectedFoodState = brasseurData.filter((d) => d.id == selectedId)[0]
-    setBrasseurState(selectedFoodState)
-    console.log(selectedFoodState)
+    const selectedBrasseurState = brasseurData.filter(
+      // eslint-disable-next-line eqeqeq
+      (d) => d.id == selectedId
+    )[0]
+    setBrasseurState(selectedBrasseurState)
+    console.log(selectedBrasseurState)
   }
 
   useEffect(() => {
@@ -34,7 +37,7 @@ const About = () => {
         >
           {brasseurData.map((d) => (
             <option key={d.id} value={d.id}>
-              {d.nameTown}
+              {d.nameTown} - Brasseur {d.nameBrass}
             </option>
           ))}
         </select>
